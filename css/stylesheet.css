@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+header {
+    background-color: rgb(30, 23, 47);
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+
+.principalNav ul{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.principalNav ul li {
+    width: 8rem;
+    list-style: none;
+}
+
+.principalNav ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+.principalNav ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#special {
+    background-image: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+    color: rgb(255, 255, 255);
+}
+
+.firstContainer {
+    background-color: rgb(46, 37, 80);
+    display: flex; 
+    height: 85vmin;
+}
+
+.backgroundColor {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#articleContainer {
+    color: rgb(255, 255, 255);
+    width: 25rem;
+    margin: 7rem 2rem;
+}
+
+#articleContainer h1 {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+#articleContainer p {
+    margin: 1rem 0;
+}
+
+#articleContainer button {
+    margin-bottom: 1rem 0;
+    padding: 0.6rem;
+    width: 9rem;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 0.2rem;
+}
+
+#firstButton { 
+    background-color: rgb(255, 255, 255);
+    color:  #f41b89;
+   
+}
+
+#secondButton {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.backgroundImg {
+    width: 50%;
+    background-image: url(../img/leafsBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    opacity: 0.8;
+}
+
+#phoneContainer {
+    margin: 5rem 6rem;
+}
+
+#phone {
+    height: auto;
+    width: 12rem;
+}
+
+.secondContainer{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondContainer h2 {
+    font-size: 3rem;
+    color: rgb(244, 20, 134);
+    margin: 3rem 0;
+    text-align: center;
+}
+
+#laptop {
+    height: auto;
+    width: 30rem;
+    margin: 0 5rem;
+}
+
+.secondArti {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.articleContent {
+    width: 25rem;
+}
+
+.articleContent h3{
+    font-size: 2rem;
+    color: rgb(244, 20, 134);
+}
+
+.articleContent p{
+    margin: 1rem 0;
+}
+
+.articleContent h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: rgb(244, 20, 134);
+}
+
+.list {
+    display: flex;
+}
+
+.list p {
+    margin: 0 1rem;
+}
+
+.checkmark {
+    height: auto;
+    width: 1rem;
+}
+
+.thirdContainer {
+    background-color: rgb(30, 23, 47);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdContainer h2 {
+    font-size: 3rem;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.thirdContainer article p {
+    text-align: center;
+    width: 50rem;
+}
+
+.cardContainer {
+    display: flex;
+    margin: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 23, 47);
+    width: 20rem;
+    margin: 2rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+.card h4 {
+    font-size: 1.2rem;
+}
+
+.offert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 2rem;
+    padding: 0.3rem;
+}
+
+span {
+    font-size: 2rem;
+    padding: 0.3rem;
+}
+
+.iconSpace {
+    display: flex;
+    margin: 1rem;
+}
+
+.icons {
+    width: auto;
+    height: 1rem;
+    margin: 0 2rem;
+}
+
+.close {
+    width: auto;
+    height: 1.4rem;
+    margin: 0 1.8rem;
+}
+
+
+.cardExtra {
+    margin: 2rem;
+}
+
+.card button{
+    margin-bottom: 1em 0;
+    padding: 0.9rem;
+    width: 9.375rem;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 0.4rem;
+    color: rgb(255, 255, 255);
+}
+
+.cardButton {
+    background-color: #1e172f;
+    margin: 1rem ;
+}
+
+#cardSpecialButton {
+    background-image: linear-gradient(to right, #ff758c 0%, #f41b89 100%);
+    margin: 1rem ;
+}
+
+.fourthContainer {
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.redes {
+    width: auto;
+    height: 2rem;
+    text-align: center;
+}
+
+#author {
+    text-decoration: none;
+    color: rgb(244, 20, 134);
+}
+
+@media (min-width:921px) and (max-width:1279px) {
+    #phoneContainer {
+        margin: 3rem 6rem;
+    }
+    
+    .secondContainer {
+        height: 150vh;
+    }
+
+    .secondContainer h2 {
+        margin: 1rem 0;
+        
+    }
+
+    #laptop {
+        margin: 2rem;
+    }
+
+    .list{
+        justify-content: center;
+    }
+
+    .list p {
+        width: 15rem;
+    }
+    
+    .articleContent {
+        width: 35rem;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:920px) {
+    .secondContainer {
+        height: 80vh;
+    }
+
+    .secondContainer h2 {
+        margin: 0;
+        
+    }
+
+    #laptop {
+        margin: 2rem;
+    }
+
+    .thirdContainer article p {
+        width: 40rem;
+    }
+
+    header {
+        height:15vh;
+        flex-direction: column;
+    }
+
+    .principalNav ul {
+        height: 3vh;
+        align-items: flex-start;
+    }
+
+    footer {
+        padding: 0 4rem
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    *{
+        font-size: 12px;
+    }
+    
+    header {
+        height: 35vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .principalNav{
+        height: 10vh;
+        margin: 3rem 0;
+    }
+    .principalNav ul  {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .principalNav ul li {
+        margin: 0.5rem;
+    }
+
+    #articleContainer button {
+        width: 10rem;
+        margin: 0.5rem;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .secondContainer{
+        height: 80vh;
+    }
+
+    .secondContainer h2 {
+        margin: 0;
+    }
+
+    .thirdContainer article p {
+        text-align: center;
+        width: 30rem;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 3rem ;
+    }
+
+    footer article p {
+        margin: 0.5rem;
+        
+    }
+}
+
+@media (min-width:352px) and (max-width:480px) {
+    *{
+        font-size: 8px;
+    }
+    
+    header {
+        height: 30vh;
+        flex-direction: column;
+    }
+
+    .principalNav{
+        height: 15vh;
+    }
+    .principalNav ul  {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .principalNav ul li {
+        margin: 0.5rem;
+    }
+
+    #articleContainer button {
+        width: 10rem;
+        margin: 0.5rem;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .secondContainer{
+        height: 58vh;
+    }
+
+    .secondContainer h2 {
+        margin: 0;
+    }
+
+    .thirdContainer article p {
+        text-align: center;
+        width: 30rem;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 3rem ;
+    }
+
+    footer article p {
+        margin: 0.5rem;
+        
+    }
+
+    .fourthContainer{
+        height: 6vh;
+    }
+}
+
+@media (max-width: 280px)  {
+    *{
+        font-size: 5px;
+    }
+
+    .logo img {
+        width: auto;
+        height: 6rem;
+    }
+
+    header{
+        height: 25vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .principalNav {
+        margin: 3rem;
+    }
+
+    .principalNav ul {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+
+    .principalNav ul  li{
+        height: 8rem;;
+    }
+    
+    #special {
+        margin: 8rem 0;
+    }
+
+    #articleContainer {
+        margin: 7rem 0 7rem 4rem;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #articleContainer button {
+        width: 12rem;
+        margin: 1rem;
+    }
+
+    .secondContainer{
+        height: 50vh;
+    }
+
+    .icon {
+        width: auto;
+        height: 6rem;
+    }
+
+    .thirdContainer article p {
+        text-align: center;
+        width: 40rem;
+    }
+
+    .fourthContainer {
+        height: 6vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fourthContainer p{
+        margin: 1rem 0;
+    }
+    
+}
